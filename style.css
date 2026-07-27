@@ -1,3 +1,39 @@
+/* Fonts
+https://fonts.google.com/specimen/JetBrains+Mono
+https://fonts.google.com/specimen/Michroma?preview.script=Latn */
+
+@font-face {
+    font-family: "Michroma";
+    src: url("fonts/Michroma-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("fonts/JetBrainsMono-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("fonts/JetBrainsMono-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("fonts/JetBrainsMono-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
   --void: #05070c;
   --panel: #0e131c;
