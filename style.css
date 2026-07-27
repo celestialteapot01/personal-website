@@ -767,7 +767,7 @@ h1 {
 }
 
 .project-card {
-  grid-column: span 12;
+  grid-column: span 6;
 
   display: grid;
   grid-template-columns: 72px minmax(0, 1fr);
